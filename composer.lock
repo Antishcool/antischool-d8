@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3442b615671d3da57c0a695786225691",
+    "content-hash": "6247641c33baee9ffa977df5942935c6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2668,11 +2668,17 @@
         },
         {
             "name": "drupal/radix",
-            "version": "dev-4.x",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/radix.git",
-                "reference": "fce19a090f5e20e6afe8412031b2d6ecb526a4ea"
+                "reference": "8.x-4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.7.zip",
+                "reference": "8.x-4.7",
+                "shasum": "05c5acdffe5004c04476e17fcf75ab22e4d8fb37"
             },
             "require": {
                 "drupal/components": "^1.0",
@@ -2684,11 +2690,11 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.7+0-dev",
-                    "datestamp": "1580057281",
+                    "version": "8.x-4.7",
+                    "datestamp": "1580057581",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -2723,8 +2729,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/radix",
                 "issues": "https://www.drupal.org/project/issues/radix"
-            },
-            "time": "2020-02-21T17:05:09+00:00"
+            }
         },
         {
             "name": "drush/drush",
@@ -9174,9 +9179,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/radix": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
