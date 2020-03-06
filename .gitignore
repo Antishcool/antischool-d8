@@ -23,4 +23,5 @@
 # Ignore .env files as they are personal
 
 .editorconfig
-.gitattributes.DS_Store
+.gitattributes
+.DS_Store
