@@ -1,0 +1,22 @@
+uuid: 66784d34-cb1b-48bf-9434-80489578a40a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - antischool
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: antischool_breadcrumbs
+theme: antischool
+region: navbar_branding
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

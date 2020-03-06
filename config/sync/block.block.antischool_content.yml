@@ -1,0 +1,22 @@
+uuid: 44bee3dd-5777-4555-aba6-d4316276c28d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - antischool
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: antischool_content
+theme: antischool
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
