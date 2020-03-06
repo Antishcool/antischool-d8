@@ -1,6 +1,6 @@
 uuid: 49415c68-e470-4ce4-b1bc-ec3c1d512b4d
-name: antischool
-mail: szabo.herman@gmail.com
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''

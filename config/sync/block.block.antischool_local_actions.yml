@@ -1,0 +1,20 @@
+uuid: fe52023c-f092-44fe-8f69-5c9ffc058bb3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - antischool
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: antischool_local_actions
+theme: antischool
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,8 +1,8 @@
 country:
-  default: GE
+  default: ''
 first_day: 0
 timezone:
-  default: Asia/Tbilisi
+  default: UTC
   user:
     configurable: true
     warn: false
