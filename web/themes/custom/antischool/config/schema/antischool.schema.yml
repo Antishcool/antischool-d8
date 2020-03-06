@@ -1,0 +1,5 @@
+# Schema for the configuration files of the antischool theme.
+
+antischool.settings:
+  type: theme_settings
+  label: 'antischool settings'

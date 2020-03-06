@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/antischool.style.css: {}
+  js:
+    assets/js/antischool.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
