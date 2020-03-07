@@ -56,10 +56,12 @@ content:
     type: file_generic
     region: content
   field_first_name:
-    weight: 10
-    settings: {  }
+    weight: 15
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: text_textfield
     region: content
   field_interests:
     weight: 14
@@ -70,10 +72,12 @@ content:
     type: text_textarea
     region: content
   field_last_name:
-    weight: 11
-    settings: {  }
+    weight: 16
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: text_textfield
     region: content
   field_phone:
     weight: 12

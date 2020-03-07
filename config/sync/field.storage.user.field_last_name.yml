@@ -1,18 +1,17 @@
-uuid: 97240fb3-e03d-4409-bfc2-37df43047ec1
+uuid: 553bb83a-c531-412c-934b-df1b9a9aaac4
 langcode: en
 status: true
 dependencies:
   module:
-    - options
+    - text
     - user
 id: user.field_last_name
 field_name: field_last_name
 entity_type: user
-type: list_string
+type: text
 settings:
-  allowed_values: {  }
-  allowed_values_function: ''
-module: options
+  max_length: 255
+module: text
 locked: false
 cardinality: 1
 translatable: true

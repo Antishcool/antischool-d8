@@ -16,7 +16,6 @@ dependencies:
   module:
     - file
     - image
-    - options
     - text
     - user
     - video_embed_field
@@ -54,11 +53,11 @@ content:
     type: file_default
     region: content
   field_first_name:
-    weight: 54
+    weight: 59
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: text_default
     region: content
   field_interests:
     weight: 58
@@ -68,11 +67,11 @@ content:
     type: text_default
     region: content
   field_last_name:
-    weight: 55
+    weight: 60
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: text_default
     region: content
   field_phone:
     weight: 56
