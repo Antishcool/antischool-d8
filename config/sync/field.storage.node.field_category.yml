@@ -1,0 +1,21 @@
+uuid: e42ad108-6847-4d5c-b4c6-3fc7bf28d218
+langcode: en
+status: true
+dependencies:
+  module:
+    - bricks
+    - node
+    - taxonomy
+id: node.field_category
+field_name: field_category
+entity_type: node
+type: bricks
+settings:
+  target_type: taxonomy_term
+module: bricks
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
