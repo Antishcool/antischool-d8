@@ -55,9 +55,10 @@ content:
   field_first_name:
     weight: 59
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_interests:
     weight: 58
@@ -69,9 +70,10 @@ content:
   field_last_name:
     weight: 60
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_phone:
     weight: 56

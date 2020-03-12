@@ -1,11 +1,10 @@
-uuid: 8caed6d1-5e5e-46b9-8d84-f2c13b5ce2a0
+uuid: e0cf8331-0e8b-424a-a973-90dd4bc1fe87
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.user.field_first_name
   module:
-    - text
     - user
 id: user.user.field_first_name
 field_name: field_first_name
@@ -18,4 +17,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string
