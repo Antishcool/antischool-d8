@@ -6,11 +6,14 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_category
     - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
     - field.field.node.course.field_video
+    - image.style.thumbnail
     - node.type.course
   module:
     - bricks
     - duration_field
+    - image
     - path
     - text
     - video_embed_field
@@ -50,6 +53,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: duration_widget
+    region: content
+  field_main_image:
+    weight: 125
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
     region: content
   field_video:
     weight: 122

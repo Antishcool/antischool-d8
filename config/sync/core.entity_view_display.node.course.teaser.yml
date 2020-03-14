@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_category
     - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
     - field.field.node.course.field_video
     - node.type.course
   module:
@@ -33,4 +34,5 @@ content:
 hidden:
   field_category: true
   field_duration: true
+  field_main_image: true
   field_video: true

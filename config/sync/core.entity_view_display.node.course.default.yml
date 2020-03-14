@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.course.body
     - field.field.node.course.field_category
     - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
     - field.field.node.course.field_video
     - node.type.course
   module:
     - bricks
     - duration_field
+    - image
     - text
     - user
     - video_embed_field
@@ -43,6 +45,15 @@ content:
       separator: space
     third_party_settings: {  }
     type: duration_human_display
+    region: content
+  field_main_image:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
     region: content
   field_video:
     weight: 2
