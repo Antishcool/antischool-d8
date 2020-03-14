@@ -1,0 +1,21 @@
+uuid: f4bffb9d-437e-49f7-a146-5ba0a7e7e492
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_interests
+  module:
+    - text
+    - user
+id: user.user.field_interests
+field_name: field_interests
+entity_type: user
+bundle: user
+label: Interests
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
