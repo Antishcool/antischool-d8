@@ -1,18 +1,16 @@
-uuid: e42ad108-6847-4d5c-b4c6-3fc7bf28d218
+uuid: 11d0ed30-5c16-44d0-acb2-bd8490c129ba
 langcode: en
 status: true
 dependencies:
   module:
-    - bricks
+    - duration_field
     - node
-    - taxonomy
-id: node.field_category
-field_name: field_category
+id: node.field_duration
+field_name: field_duration
 entity_type: node
-type: bricks
-settings:
-  target_type: taxonomy_term
-module: bricks
+type: duration
+settings: {  }
+module: duration_field
 locked: false
 cardinality: 1
 translatable: true

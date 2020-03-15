@@ -1,16 +1,16 @@
-uuid: d61da49b-6c70-4511-bf4a-3e95b7f9e73d
+uuid: 683a9225-7e52-4011-84c1-608930fe1594
 langcode: en
 status: true
 dependencies:
   module:
-    - duration_field
     - node
-id: node.field_course_duration
-field_name: field_course_duration
+    - video_embed_field
+id: node.field_video
+field_name: field_video
 entity_type: node
-type: duration
+type: video_embed_field
 settings: {  }
-module: duration_field
+module: video_embed_field
 locked: false
 cardinality: 1
 translatable: true

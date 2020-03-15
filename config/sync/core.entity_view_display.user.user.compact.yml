@@ -4,6 +4,14 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_age
+    - field.field.user.user.field_bio
+    - field.field.user.user.field_files
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_interests
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_video
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -16,6 +24,11 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
+  masquerade:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   user_picture:
     type: image
     weight: 0
@@ -26,4 +39,12 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_age: true
+  field_bio: true
+  field_files: true
+  field_first_name: true
+  field_interests: true
+  field_last_name: true
+  field_phone: true
+  field_video: true
   member_for: true

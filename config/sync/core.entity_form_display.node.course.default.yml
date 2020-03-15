@@ -1,15 +1,19 @@
-uuid: 49d2e4be-bf76-4436-8be9-aad584bb9850
+uuid: 92ba03c0-e413-4a8e-8f5e-c08aeab0080f
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.course.body
     - field.field.node.course.field_category
-    - field.field.node.course.field_course_duration
-    - field.field.node.course.field_course_video
+    - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
+    - field.field.node.course.field_video
+    - image.style.thumbnail
     - node.type.course
   module:
+    - bricks
     - duration_field
+    - image
     - path
     - text
     - video_embed_field
@@ -35,23 +39,30 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_category:
-    weight: 123
+    weight: 124
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: bricks_tree_autocomplete
     region: content
-  field_course_duration:
-    weight: 124
-    settings:
-      duration: ''
+  field_duration:
+    weight: 123
+    settings: {  }
     third_party_settings: {  }
     type: duration_widget
     region: content
-  field_course_video:
+  field_main_image:
+    weight: 125
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_video:
     weight: 122
     settings: {  }
     third_party_settings: {  }

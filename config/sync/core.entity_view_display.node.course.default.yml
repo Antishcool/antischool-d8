@@ -1,15 +1,18 @@
-uuid: 0d4ea291-a9ca-4eb4-901c-c88a42e5364d
+uuid: 430cebac-3c2c-4431-86b6-a86aa5895d95
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.course.body
     - field.field.node.course.field_category
-    - field.field.node.course.field_course_duration
-    - field.field.node.course.field_course_video
+    - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
+    - field.field.node.course.field_video
     - node.type.course
   module:
+    - bricks
     - duration_field
+    - image
     - text
     - user
     - video_embed_field
@@ -21,20 +24,21 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   field_category:
-    weight: 103
+    weight: 4
     label: above
     settings:
-      link: true
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: bricks_nested
     region: content
-  field_course_duration:
-    weight: 104
+  field_duration:
+    weight: 3
     label: above
     settings:
       text_length: full
@@ -42,8 +46,17 @@ content:
     third_party_settings: {  }
     type: duration_human_display
     region: content
-  field_course_video:
-    weight: 102
+  field_main_image:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video:
+    weight: 2
     label: above
     settings:
       responsive: true
@@ -54,8 +67,8 @@ content:
     type: video_embed_field_video
     region: content
   links:
-    weight: 100
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
