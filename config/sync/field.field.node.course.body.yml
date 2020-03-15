@@ -1,4 +1,4 @@
-uuid: b06093f1-406d-44a0-9dfa-31304b440c19
+uuid: 0005a078-46cf-4318-ac52-88bffdf97bba
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.course.body
 field_name: body
 entity_type: node
 bundle: course
-label: 'Course description'
+label: Body
 description: ''
 required: false
 translatable: true

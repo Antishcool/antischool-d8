@@ -1,13 +1,13 @@
-uuid: 6ef6785c-c326-4e85-9d2a-9f13525122f3
+uuid: d4e594ed-5a2d-4964-bb9f-69e64e56714a
 langcode: en
 status: true
 dependencies:
   module:
-    - user
+    - node
     - video_embed_field
-id: user.field_video
-field_name: field_video
-entity_type: user
+id: node.field_course_video
+field_name: field_course_video
+entity_type: node
 type: video_embed_field
 settings: {  }
 module: video_embed_field

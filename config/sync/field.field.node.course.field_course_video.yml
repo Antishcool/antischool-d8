@@ -1,25 +1,25 @@
-uuid: 7a0709e8-7cfd-4f21-81c2-6d49294d8829
+uuid: 6f96179c-97f1-4ccb-a9ed-894a8b033887
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_video
+    - field.storage.node.field_course_video
     - node.type.course
   module:
     - video_embed_field
-id: node.course.field_video
-field_name: field_video
+id: node.course.field_course_video
+field_name: field_course_video
 entity_type: node
 bundle: course
-label: video
+label: 'Course Video'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   allowed_providers:
-    vimeo: '0'
-    youtube: '0'
-    youtube_playlist: '0'
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: youtube_playlist
 field_type: video_embed_field

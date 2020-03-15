@@ -1,8 +1,8 @@
-uuid: 70518c61-0faf-4ad4-93f7-505ac0824f63
+uuid: 24795708-ceb4-4053-9ca0-31b3616e6cda
 langcode: en
 status: true
 dependencies: {  }
 name: Category
 vid: category
-description: ''
+description: 'course category'
 weight: 0

@@ -1,4 +1,4 @@
-uuid: 4908ca7c-2ebf-487d-ac86-f31c909ed9ad
+uuid: d77ff85b-d9b3-43e8-8f29-f0980bd8ff5d
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.course.body
     - field.field.node.course.field_category
-    - field.field.node.course.field_duration
-    - field.field.node.course.field_main_image
-    - field.field.node.course.field_video
+    - field.field.node.course.field_course_duration
+    - field.field.node.course.field_course_video
     - node.type.course
   module:
     - text
@@ -33,6 +32,5 @@ content:
     region: content
 hidden:
   field_category: true
-  field_duration: true
-  field_main_image: true
-  field_video: true
+  field_course_duration: true
+  field_course_video: true
