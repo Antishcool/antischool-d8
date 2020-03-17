@@ -1,12 +1,19 @@
 uuid: bace4a77-9458-476e-8a35-d820585e91b9
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
-name: Article
+name: 'My Second article'
 type: article
-description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+description: 'ლორემ იპსუმ დოლორეს'
 help: ''
 new_revision: true
 preview_mode: 1

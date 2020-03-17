@@ -1,0 +1,99 @@
+uuid: 430cebac-3c2c-4431-86b6-a86aa5895d95
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.review.default
+    - field.field.node.course.body
+    - field.field.node.course.field_category
+    - field.field.node.course.field_duration
+    - field.field.node.course.field_main_image
+    - field.field.node.course.field_rate
+    - field.field.node.course.field_review
+    - field.field.node.course.field_video
+    - node.type.course
+  module:
+    - bricks
+    - comment
+    - duration_field
+    - image
+    - text
+    - user
+    - video_embed_field
+    - votingapi_widgets
+id: node.course.default
+targetEntityType: node
+bundle: course
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_category:
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: bricks_nested
+    region: content
+  field_duration:
+    weight: 3
+    label: above
+    settings:
+      text_length: full
+      separator: space
+    third_party_settings: {  }
+    type: duration_human_display
+    region: content
+  field_main_image:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_rate:
+    weight: 6
+    label: above
+    settings:
+      style: fontawesome-stars-o
+      readonly: 0
+      show_results: 0
+      values: {  }
+    third_party_settings: {  }
+    type: voting_api_formatter
+    region: content
+  field_review:
+    weight: 7
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_video:
+    weight: 2
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

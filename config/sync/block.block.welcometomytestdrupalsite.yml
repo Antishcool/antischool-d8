@@ -1,0 +1,25 @@
+uuid: a334ea43-b1b4-4ff3-ae7c-e47e22a07d1d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:876738c2-054a-49a5-a7ef-fb598fd19ef2'
+  module:
+    - block_content
+  theme:
+    - antischool
+id: welcometomytestdrupalsite
+theme: antischool
+region: navbar_left
+weight: 0
+provider: null
+plugin: 'block_content:876738c2-054a-49a5-a7ef-fb598fd19ef2'
+settings:
+  id: 'block_content:876738c2-054a-49a5-a7ef-fb598fd19ef2'
+  label: 'Test Drupal site'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
