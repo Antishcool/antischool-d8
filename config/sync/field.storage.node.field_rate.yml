@@ -8,7 +8,7 @@ dependencies:
 id: node.field_rate
 field_name: field_rate
 entity_type: node
-type: voting_api_field
+type: voting_api
 settings:
   vote_type: fivestar
   vote_plugin: fivestar
