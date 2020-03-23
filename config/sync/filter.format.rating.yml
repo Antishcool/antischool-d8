@@ -1,0 +1,8 @@
+uuid: 3013128b-d548-4212-a200-d55e04cea4b3
+langcode: en
+status: false
+dependencies: {  }
+name: Rating
+format: rating
+weight: 0
+filters: {  }

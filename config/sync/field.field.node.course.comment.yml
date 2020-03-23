@@ -1,20 +1,20 @@
-uuid: e0459f14-2444-4962-8359-ba356dcebefe
+uuid: e5b19bec-b332-440e-9d7f-4fd663550d0e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_review
+    - field.storage.node.comment
     - node.type.course
   module:
     - comment
-id: node.course.field_review
-field_name: field_review
+id: node.course.comment
+field_name: comment
 entity_type: node
 bundle: course
-label: Review
+label: Comments
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     status: 2

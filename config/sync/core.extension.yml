@@ -26,6 +26,7 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  fivestar: 0
   help: 0
   history: 0
   image: 0
@@ -42,7 +43,6 @@ module:
   path: 0
   path_alias: 0
   quickedit: 0
-  rate: 0
   rdf: 0
   search: 0
   shortcut: 0

@@ -4,11 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.course.body
+    - field.field.node.course.comment
     - field.field.node.course.field_category
     - field.field.node.course.field_duration
     - field.field.node.course.field_main_image
-    - field.field.node.course.field_rate
-    - field.field.node.course.field_review
     - field.field.node.course.field_video
     - image.style.thumbnail
     - node.type.course
@@ -20,7 +19,6 @@ dependencies:
     - path
     - text
     - video_embed_field
-    - votingapi_widgets
 id: node.course.default
 targetEntityType: node
 bundle: course
@@ -35,6 +33,12 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+    region: content
+  comment:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   created:
     type: datetime_timestamp
@@ -65,18 +69,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-    region: content
-  field_rate:
-    weight: 127
-    settings: {  }
-    third_party_settings: {  }
-    type: voting_api_widget
-    region: content
-  field_review:
-    weight: 126
-    settings: {  }
-    third_party_settings: {  }
-    type: comment_default
     region: content
   field_video:
     weight: 122

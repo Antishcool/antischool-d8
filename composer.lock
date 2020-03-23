@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "294d8ad314f4ef61fdbd29b476771c1e",
+    "content-hash": "7da74c2a0e3eee16fde7002f8fd21845",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3027,6 +3027,90 @@
             }
         },
         {
+            "name": "drupal/fivestar",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fivestar.git",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fivestar-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "56cd67bb023c67f8736553fadcee825b78170929"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/votingapi": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1579974481",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Liannoy",
+                    "homepage": "https://www.drupal.org/user/2415162"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "dbt102",
+                    "homepage": "https://www.drupal.org/user/338300"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "ericduran",
+                    "homepage": "https://www.drupal.org/user/244460"
+                },
+                {
+                    "name": "ezra-g",
+                    "homepage": "https://www.drupal.org/user/69959"
+                },
+                {
+                    "name": "fizk",
+                    "homepage": "https://www.drupal.org/user/473174"
+                },
+                {
+                    "name": "init90",
+                    "homepage": "https://www.drupal.org/user/1322186"
+                },
+                {
+                    "name": "quicksketch",
+                    "homepage": "https://www.drupal.org/user/35821"
+                },
+                {
+                    "name": "whiteph",
+                    "homepage": "https://www.drupal.org/user/2769385"
+                }
+            ],
+            "description": "Enables fivestar ratings on content, users, etc.",
+            "homepage": "https://www.drupal.org/project/fivestar",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fivestar"
+            }
+        },
+        {
             "name": "drupal/masquerade",
             "version": "2.0.0-beta3",
             "source": {
@@ -3324,75 +3408,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/radix",
                 "issues": "https://www.drupal.org/project/issues/radix"
-            }
-        },
-        {
-            "name": "drupal/rate",
-            "version": "1.0.0-alpha5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/rate.git",
-                "reference": "8.x-1.0-alpha5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/rate-8.x-1.0-alpha5.zip",
-                "reference": "8.x-1.0-alpha5",
-                "shasum": "3d56906077d57344df10ec1cd8157d3e18540599"
-            },
-            "require": {
-                "drupal/core": "*",
-                "drupal/votingapi": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha5",
-                    "datestamp": "1563467919",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "JordiK",
-                    "homepage": "https://www.drupal.org/user/3472907"
-                },
-                {
-                    "name": "Krzysztof Domański",
-                    "homepage": "https://www.drupal.org/user/3572982"
-                },
-                {
-                    "name": "brenk28",
-                    "homepage": "https://www.drupal.org/user/65985"
-                },
-                {
-                    "name": "kevin.dutra",
-                    "homepage": "https://www.drupal.org/user/1312744"
-                },
-                {
-                    "name": "mauritsl",
-                    "homepage": "https://www.drupal.org/user/243897"
-                },
-                {
-                    "name": "michaelmol",
-                    "homepage": "https://www.drupal.org/user/919186"
-                }
-            ],
-            "description": "Flexible voting options for content entity types.",
-            "homepage": "https://www.drupal.org/project/rate",
-            "support": {
-                "source": "https://git.drupalcode.org/project/rate",
-                "issues": "https://www.drupal.org/project/issues/rate"
             }
         },
         {
@@ -10031,8 +10046,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/coffee": 10,
+        "drupal/fivestar": 15,
         "drupal/masquerade": 10,
-        "drupal/rate": 15,
         "drupal/votingapi": 10,
         "drupal/votingapi_widgets": 15
     },
