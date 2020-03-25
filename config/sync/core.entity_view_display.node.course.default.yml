@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.review.default
     - field.field.node.course.body
+    - field.field.node.course.comment
     - field.field.node.course.field_category
     - field.field.node.course.field_duration
     - field.field.node.course.field_main_image
@@ -11,6 +13,7 @@ dependencies:
     - node.type.course
   module:
     - bricks
+    - comment
     - duration_field
     - image
     - text
@@ -27,6 +30,15 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
+  comment:
+    weight: 7
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_category:
     weight: 4
