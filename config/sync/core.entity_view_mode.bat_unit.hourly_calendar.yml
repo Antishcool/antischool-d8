@@ -1,0 +1,15 @@
+uuid: ff536201-2479-4238-b9af-ade0f98a8d3e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - bee
+  module:
+    - bat_unit
+_core:
+  default_config_hash: sRKg4pePAqANt0GEwAqCbBPk5hUU6Kb7GeT9xzh9Py0
+id: bat_unit.hourly_calendar
+label: 'Hourly Calendar'
+targetEntityType: bat_unit
+cache: true

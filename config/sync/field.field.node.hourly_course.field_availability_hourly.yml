@@ -1,0 +1,21 @@
+uuid: 71cd338c-e52e-4828-832e-ac215b30896a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_availability_hourly
+    - node.type.hourly_course
+id: node.hourly_course.field_availability_hourly
+field_name: field_availability_hourly
+entity_type: node
+bundle: hourly_course
+label: Availability
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:bat_unit'
+  handler_settings: {  }
+field_type: entity_reference

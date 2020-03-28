@@ -1,0 +1,23 @@
+uuid: 9c539a8e-78d7-4859-99ed-dabcfcb412d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hourly_course
+  module:
+    - text
+id: node.hourly_course.body
+field_name: body
+entity_type: node
+bundle: hourly_course
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

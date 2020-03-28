@@ -1,0 +1,19 @@
+uuid: 7881739d-5e23-4faf-8ab3-a1c112272847
+langcode: en
+status: true
+dependencies:
+  module:
+    - bat_event
+id: bat_event.event_state_reference
+field_name: event_state_reference
+entity_type: bat_event
+type: entity_reference
+settings:
+  target_type: state
+module: core
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

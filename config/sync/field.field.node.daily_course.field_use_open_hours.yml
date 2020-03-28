@@ -1,0 +1,21 @@
+uuid: 0ac8e481-e85c-4bc9-8057-88ae44ce64fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_use_open_hours
+    - node.type.daily_course
+id: node.daily_course.field_use_open_hours
+field_name: field_use_open_hours
+entity_type: node
+bundle: daily_course
+label: 'Set Open Hours'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 16ef842b-e547-4d54-9944-384b04c064d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: v50nlyQNo-FHhGCaqUC5xhl628kCytVDzFpJjE0ykd4
+id: bat_api.entity_put.state
+service_plugin_id: 'entity_put:state'
+service_endpoint_id: bat_api
+formats:
+  json: json
+  hal_json: '0'
+  xml: '0'
+authentication:
+  cookie: cookie
+no_cache: null
