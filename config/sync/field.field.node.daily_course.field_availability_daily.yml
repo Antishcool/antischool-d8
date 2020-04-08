@@ -1,0 +1,21 @@
+uuid: 9efd02b2-ef81-4cbf-af18-aa313653c768
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_availability_daily
+    - node.type.daily_course
+id: node.daily_course.field_availability_daily
+field_name: field_availability_daily
+entity_type: node
+bundle: daily_course
+label: Availability
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:bat_unit'
+  handler_settings: {  }
+field_type: entity_reference

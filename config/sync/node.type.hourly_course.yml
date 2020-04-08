@@ -1,0 +1,23 @@
+uuid: 795018fb-1336-4187-ad8e-0baa9f3285dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Hourly Course'
+type: hourly_course
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
+bee:
+  bookable: 1
+  bookable_type: hourly
+  availability: unavailable
+  payment: 0
+  type_id: '2'

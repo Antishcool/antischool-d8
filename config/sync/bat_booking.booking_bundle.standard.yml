@@ -1,0 +1,6 @@
+uuid: 4f0be7f9-d711-4388-8e1f-a95397fcf3fe
+langcode: en
+status: true
+dependencies: {  }
+name: Standard
+type: standard

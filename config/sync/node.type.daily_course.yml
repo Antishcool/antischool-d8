@@ -1,0 +1,23 @@
+uuid: 1a94e36f-7640-467f-8ba3-0980bf946fd2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Daily Course'
+type: daily_course
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
+bee:
+  bookable: 1
+  bookable_type: daily
+  availability: unavailable
+  payment: 0
+  type_id: '1'

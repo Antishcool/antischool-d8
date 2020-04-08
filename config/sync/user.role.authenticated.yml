@@ -17,4 +17,6 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view calendar data for any availability_daily event'
+  - 'view calendar data for any availability_hourly event'
   - 'view media'
